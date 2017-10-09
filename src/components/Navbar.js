@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+import {Menu} from './Menu';
+
 import '../styles/navbar.css';
 
 export const Navbar = () => (
@@ -16,11 +18,7 @@ export const Navbar = () => (
         <Link className="navbar-brand" to="/"><span className="glyphicon glyphicon-equalizer"></span> Music Videos</Link>
       </div>
       <div id="navbar" className="collapse navbar-collapse">
-        <ul className="nav navbar-nav">
-          <li className="active"><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
+        <Menu/>
       </div>
     </div>
   </nav>
