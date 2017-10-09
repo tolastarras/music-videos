@@ -1,0 +1,30 @@
+div.description {
+  height: 11em;
+  overflow: hidden;
+}
+div.description h5 {
+  font-weight: bold;
+}
+div.description-all {
+  height: 30em;
+  overflow-y: scroll;
+}
+div.title {
+  margin-top: 1em;
+}
+div.video button {
+  font-size: .8em;
+  border: none;
+  text-transform: uppercase;
+  background: transparent;
+  margin: 0 auto;
+  color: #777;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  padding-top: .5em;
+  margin-top: 1em;
+  outline: none;
+}
+div.video button:hover {
+  color: black;
+}

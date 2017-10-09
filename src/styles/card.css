@@ -1,0 +1,31 @@
+.card {
+  border-bottom: 1px dotted #b9b9b9;
+  display: flex;
+  flex-direction: row;
+  padding: .5em 1px;
+}
+.card h6 {
+  color: black;
+}
+.card:hover > .card-image + .card-info {
+  color: #111;
+}
+.card:hover > .card-image + .card-info h6 {
+  color: #167ac6;
+}
+.card .card-info {
+  color: #777;
+  margin-left: .7em;
+}
+.card .card-info h6 {
+  font-size: .9em;
+  margin: 0 0 4px 0;
+  font-weight: bold;
+}
+.card .card-info p {
+  font-size: .9em;
+  margin: 0;
+}
+.card .card-info span {
+  font-size: .8em;
+}
