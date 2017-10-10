@@ -14,7 +14,7 @@ export class Content extends Component {
   }
 
   render() {
-    let track = this.props.track.info;
+    let track = this.props.track.snippet;
     let descriptionClass = 'nano-content description';
     let btnText = 'Show More';
     if (this.state.show) {
