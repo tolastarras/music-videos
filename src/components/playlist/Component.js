@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card} from './Card';
 
-import '../styles/play-list.css';
+import '../../styles/play-list.css';
 
 export const PlayList = ({tracks}) => {
   if (tracks.length === 0) return false;
@@ -14,7 +14,7 @@ export const PlayList = ({tracks}) => {
 
   return (
     <div className="col-md-4 play-list breadcrumb">
-      <h6>Play List</h6>
+      <h6>Playlist</h6>
       {cards}
     </div>
   );
