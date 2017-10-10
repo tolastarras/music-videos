@@ -14,7 +14,8 @@ export class Content extends Component {
   }
 
   render() {
-    let track = this.props.track.snippet;
+    let video = this.props.track;
+    let track = video.snippet;
     let descriptionClass = 'nano-content description';
     let btnText = 'Show More';
     if (this.state.show) {
@@ -25,7 +26,14 @@ export class Content extends Component {
     return (
       <div className="content">
         <div className="breadcrumb title">
-          <h3>{track.title}</h3>
+          <div className="row title">
+            <div className="col-md-9">
+              <h3>{track.title}</h3>
+            </div>
+            <div className="col-md-3 text-right view-count">
+              <h3>{Number(video.statistics.viewCount).toLocaleString('en')} views</h3>
+            </div>
+          </div>
         </div>
         <div className="breadcrumb nano">
           <div className={descriptionClass}>

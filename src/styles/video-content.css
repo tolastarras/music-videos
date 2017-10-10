@@ -28,3 +28,9 @@ div.video button {
 div.video button:hover {
   color: black;
 }
+div.view-count {
+  color: #777;
+}
+div.view-count h3 {
+  font-size: 1.8rem;
+}
