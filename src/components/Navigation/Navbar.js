@@ -1,9 +1,10 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
-import {Menu} from './Menu';
+// components
+import {Logo, Menu} from './Menu';
 
-import '../styles/navbar.css';
+// styles
+import '../../styles/navbar.css';
 
 export const Navbar = () => (
   <nav className="navbar navbar-inverse navbar-fixed-top">
@@ -15,7 +16,7 @@ export const Navbar = () => (
           <span className="icon-bar"></span>
           <span className="icon-bar"></span>
         </button>
-        <Link className="navbar-brand" to="/"><span className="glyphicon glyphicon-equalizer"></span> Music Videos</Link>
+        <Logo/>
       </div>
       <div id="navbar" className="collapse navbar-collapse">
         <Menu/>
