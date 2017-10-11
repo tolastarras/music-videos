@@ -1,4 +1,4 @@
-## Description
+## Music Videos
 
 This app uses the YouTube API to get a list of the 10 most popular YouTube videos and places them in a playlist. Uppon loading, the app plays the first video from the playlist.
 
@@ -24,17 +24,11 @@ This app uses the YouTube API to get a list of the 10 most popular YouTube video
   </tr>
 </table>
 
-### Level
-Beginner
+### About
 
-### Authentication
-None
-
-### Database
-None
-
-### API
-[YouTube Api](https://developers.google.com/youtube/v3/)
+Level|Authentication|Database|Api
+:-:|:-:|:-:|:-:
+Beginner|None|None|[YouTube](https://developers.google.com/youtube/v3/)
 
 ## Usage
 
@@ -45,7 +39,7 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Acknowledgements
+## Credit
 
 Based on the [github repo](https://github.com/Hackbit/reactriot2017-musical-ranking) by [Vanessa Paco Ramos](https://github.com/Vanessa85) published on Jun 25, 2017.
 
