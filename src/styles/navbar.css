@@ -1,3 +1,6 @@
-.a.navbar-brand {
-  color: white;
+.navbar.navbar-inverse.navbar-fixed-top {
+  background: darkred;
+}
+span.navbar-brand {
+  color: white !important;
 }

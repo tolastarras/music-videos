@@ -10,5 +10,7 @@ export const Menu = () => (
 );
 
 export const Logo = () => (
-  <Link className="navbar-brand" to="/projects/music-videos/"><span className="glyphicon glyphicon-equalizer"></span> Music Videos</Link>
+  <span className="navbar-brand"><i className="glyphicon glyphicon-equalizer"></i>  Music Videos</span>
 );
+
+// <Link className="navbar-brand" to="/projects/music-videos/"><span className="glyphicon glyphicon-equalizer"></span> Music Videos</Link>

@@ -1,5 +1,7 @@
-## Music Videos
+## name
+Music Videos
 
+## Description
 This app uses the YouTube API to get a list of the 10 most popular YouTube videos and places them in a playlist. Uppon loading, the app plays the first video from the playlist.
 
 ### Tools
