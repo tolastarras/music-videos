@@ -32,18 +32,6 @@ Level|Authentication|Database|Api
 :-:|:-:|:-:|:-:
 Beginner|None|None|[YouTube](https://developers.google.com/youtube/v3/)
 
-## Usage
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
 ## Credit
 
 Based on the [github repo](https://github.com/Hackbit/reactriot2017-musical-ranking) by [Vanessa Paco Ramos](https://github.com/Vanessa85) published on Jun 25, 2017.
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
