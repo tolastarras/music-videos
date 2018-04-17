@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "axios": "^0.16.2",
-    "moment": "^2.18.1",
+    "moment": "^2.19.3",
     "prop-types": "^15.6.0",
     "react-youtube": "^7.5.0"
   }
