@@ -34,4 +34,4 @@ Beginner|None|None|[YouTube](https://developers.google.com/youtube/v3/)
 
 ## Credit
 
-Based on the [github repo](https://github.com/Hackbit/reactriot2017-musical-ranking) by [Vanessa Paco Ramos](https://github.com/Vanessa85) published on Jun 25, 2017.
+Based on the [github repo](https://github.com/vanessapr/reactriot2017-musical-ranking) by [Vanessa Paco Ramos](https://github.com/vanessapr) published on Jun 25, 2017.
