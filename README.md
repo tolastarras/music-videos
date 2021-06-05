@@ -32,6 +32,6 @@ Level|Authentication|Database|Api
 :-:|:-:|:-:|:-:
 Beginner|None|None|[YouTube](https://developers.google.com/youtube/v3/)
 
-## Credit
+## Credits
 
 Based on the [github repo](https://github.com/vanessapr/reactriot2017-musical-ranking) by [Vanessa Paco Ramos](https://github.com/vanessapr) published on Jun 25, 2017.
